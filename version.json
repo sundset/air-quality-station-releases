@@ -1,13 +1,12 @@
 {
-  "version": "0.4.0",
+  "version": "0.4.2",
   "device": "FNK0104N",
   "release_date": "2026-11-24",
-  "firmware_url": "https://github.com/sundset/air-quality-station-releases/releases/download/v0.4.0/firmware.bin",
-  "size": 1600208,
-  "sha256": "fae745c575403b8d1ead1d45c17bdeba963f40bbe9b81d534d2a24894fb37e6a",
-  "signature_url": "https://github.com/sundset/air-quality-station-releases/releases/download/v0.4.0/firmware.sig",
+  "firmware_url": "https://github.com/sundset/air-quality-station-releases/releases/download/v0.4.2/firmware.bin",
+  "size": 1600784,
+  "sha256": "ac1a9402b5e696e4f0f8c6cc0b7ab0cf42a67b6e9bfd8488cb43ffb529fd5009",
+  "signature_url": "https://github.com/sundset/air-quality-station-releases/releases/download/v0.4.2/firmware.sig",
   "notes": [
-    "Added signed firmware updates from GitHub and the local network, with touchscreen approval and startup validation for rollback.",
-    "Added update status to the header and a manual check under About. The update screen distinguishes a missing manifest from an HTTPS connection failure."
+    "Clarified the OTA screen when the latest public release is no newer than the installed firmware."
   ]
 }
